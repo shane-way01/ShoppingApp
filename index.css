@@ -1,5 +1,3 @@
-
-
 *{
 
     margin: unset;
@@ -10,8 +8,8 @@
 body{
     background: #f2f2f2;
 
-}
 
+}
 
 nav{
 
@@ -23,21 +21,20 @@ nav{
     margin-bottom: 1rem;
 
 }
+.container{
 
-.container {
     padding: 1rem;
     
 }
 
-#itemForm label {
+#itemForm label{
 
     display: block;
     margin-bottom: 1rem;
 
 }
 
-
-#itemForm input {
+#itemForm unput{
 
     height: 2rem;
     text-align: center;
@@ -45,19 +42,19 @@ nav{
 
 }
 
-#quantityInput, #priceInput {
+
+#quantityInput #priceInput{
 
     width: 3rem;
 
 }
 
-#addItemButton {
-
+#addItemButton{
     border: unset;
-    background-color: #00508a;
+    background-color: #00805a;
     color: #fff;
     padding: 0.5rem;
-
+    cursor: pointer;
 }
 
 #itemsDiv{
@@ -68,6 +65,7 @@ nav{
 }
 
 .item{
+
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     background: #eaeaea;
@@ -76,21 +74,19 @@ nav{
 }
 
 .checkbox{
-
+    
     height: 100%;
-    width: 2.5rem;
+    width:2.5rem;
 
 }
 
 .itemInfo{
 
     text-align: center;
-
-
+    
 }
 
-.deleteButton {
-
+.deleteButton{
     margin: 0 0 0 auto;
     border: unset;
     background: #b10000;
@@ -98,30 +94,21 @@ nav{
     font-size: 0.8rem;
     width: 2.5rem;
     height: 100%;
-
-
+    cursor: pointer;
 }
-
 
 .deleteButton:active{
-   
     margin-top: 3px;
-    border: 3px solid black;
+    }
 
-}
-
-.purchased{
+ .purchased{
     background: #00805a;
     color: #fff;
 
-}
-
-.purchased p {
+ }  
+ 
+ .purchased p{
 
     text-decoration: line-through;
 
-}
-
-
-
-
+ }
